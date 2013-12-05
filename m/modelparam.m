@@ -12,6 +12,15 @@
 
 %
 
+%Konstanter som ej var definerade
+
+i_t = 3.4;
+J_t = 0.13;
+m = 1500;
+k = 1000;
+c = 1;
+c_r1 = 0.147;
+
 
 
 % Environment

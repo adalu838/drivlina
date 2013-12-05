@@ -28,7 +28,7 @@ tspan = 30;
 % load parameters
 
 modelparam;
-
+buildMatrix;
 % if desired, restore the mask parameters with the following command
 
 % restoremask;
