@@ -1,12 +1,12 @@
 Model {
   Name			  "car"
-  Version		  8.1
+  Version		  8.0
   MdlSubVersion		  0
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.885"
+    ComputedModelVersion    "1.874"
     NumModelReferences	    0
     NumTestPointedSignals   30
     TestPointedSignal {
@@ -142,7 +142,7 @@ Model {
       PortIndex		      2
     }
   }
-  SavedCharacterEncoding  "UTF-8"
+  SavedCharacterEncoding  "windows-1252"
   SaveDefaultBlockParams  on
   ScopeRefreshTime	  0.035000
   OverrideScopeRefreshTime on
@@ -162,7 +162,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [0.0, 25.0, 1680.0, 1000.0]
+      Location		      [0.0, 0.0, 960.0, 1156.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -177,17 +177,17 @@ Model {
 	$PropName		"ExplorerBarInfo"
 	$ObjectID		4
 	$ClassName		"Simulink.ExplorerBarInfo"
-	Visible			[1]
+	Visible			[0]
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		3
+	Dimension		2
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [729.0, 827.0]
+	  Extents		  [721.0, 1023.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [0.0, 0.0]
 	}
@@ -196,18 +196,9 @@ Model {
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "12:38"
-	  Extents		  [1449.0, 831.0]
+	  Extents		  [721.0, 1023.0]
 	  ZoomFactor		  [1.25]
-	  Offset		  [12.247265624999955, -24.184130223592092]
-	}
-	Object {
-	  $ObjectID		  7
-	  IsActive		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "12"
-	  Extents		  [1449.0, 831.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-5.275390625, 0.0]
+	  Offset		  [13.966666666667223, -108.5333333333333]
 	}
 	PropName		"EditorsInfo"
       }
@@ -219,9 +210,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "rasme879"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Dec 09 16:02:00 2013"
-  RTWModifiedTimeStamp	  308505430
-  ModelVersionFormat	  "1.%<AutoIncrement:885>"
+  LastModifiedDate	  "Thu Dec 05 16:23:49 2013"
+  RTWModifiedTimeStamp	  308161114
+  ModelVersionFormat	  "1.%<AutoIncrement:874>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -256,7 +247,7 @@ Model {
   TryForcingSFcnDF	  off
   Object {
     $PropName		    "DataLoggingOverride"
-    $ObjectID		    8
+    $ObjectID		    7
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "car"
     Array {
@@ -314,14 +305,14 @@ Model {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      9
-      Version		      "1.13.0"
+      $ObjectID		      8
+      Version		      "1.12.1"
       Array {
 	Type			"Handle"
 	Dimension		8
 	Simulink.SolverCC {
-	  $ObjectID		  10
-	  Version		  "1.13.0"
+	  $ObjectID		  9
+	  Version		  "1.12.1"
 	  StartTime		  "0.0"
 	  StopTime		  "60"
 	  AbsTol		  "auto"
@@ -355,8 +346,8 @@ Model {
 	  InsertRTBMode		  "Whenever possible"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  11
-	  Version		  "1.13.0"
+	  $ObjectID		  10
+	  Version		  "1.12.1"
 	  Decimation		  "1"
 	  ExternalInput		  "[t, u]"
 	  FinalStateName	  "xFinal"
@@ -387,8 +378,8 @@ Model {
 	  Refine		  "1"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  12
-	  Version		  "1.13.0"
+	  $ObjectID		  11
+	  Version		  "1.12.1"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    4
@@ -439,8 +430,8 @@ Model {
 	  ParallelExecutionInRapidAccelerator on
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  13
-	  Version		  "1.13.0"
+	  $ObjectID		  12
+	  Version		  "1.12.1"
 	  RTPrefix		  "error"
 	  ConsistencyChecking	  "none"
 	  ArrayBoundsChecking	  "none"
@@ -529,13 +520,12 @@ Model {
 	  SFTransitionActionBeforeConditionDiag	"warning"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  14
-	  Version		  "1.13.0"
+	  $ObjectID		  13
+	  Version		  "1.12.1"
 	  ProdBitPerChar	  8
 	  ProdBitPerShort	  16
 	  ProdBitPerInt		  32
 	  ProdBitPerLong	  32
-	  ProdBitPerLongLong	  64
 	  ProdBitPerFloat	  32
 	  ProdBitPerDouble	  64
 	  ProdBitPerPointer	  32
@@ -545,20 +535,17 @@ Model {
 	  ProdEndianess		  "Unspecified"
 	  ProdWordSize		  32
 	  ProdShiftRightIntArith  on
-	  ProdLongLongMode	  off
 	  ProdHWDeviceType	  "32-bit Generic"
 	  TargetBitPerChar	  8
 	  TargetBitPerShort	  16
 	  TargetBitPerInt	  32
 	  TargetBitPerLong	  32
-	  TargetBitPerLongLong	  64
 	  TargetBitPerFloat	  32
 	  TargetBitPerDouble	  64
 	  TargetBitPerPointer	  32
 	  TargetLargestAtomicInteger "Char"
 	  TargetLargestAtomicFloat "None"
 	  TargetShiftRightIntArith on
-	  TargetLongLongMode	  off
 	  TargetIntDivRoundTo	  "Undefined"
 	  TargetEndianess	  "Unspecified"
 	  TargetWordSize	  32
@@ -570,8 +557,8 @@ Model {
 	  ProdEqTarget		  on
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  15
-	  Version		  "1.13.0"
+	  $ObjectID		  14
+	  Version		  "1.12.1"
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
 	  CheckModelReferenceTargetMessage "error"
 	  EnableParallelModelReferenceBuilds off
@@ -585,8 +572,8 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  16
-	  Version		  "1.13.0"
+	  $ObjectID		  15
+	  Version		  "1.12.1"
 	  SFSimEnableDebug	  on
 	  SFSimOverflowDetection  on
 	  SFSimEcho		  on
@@ -600,8 +587,8 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  17
-	  Version		  "1.13.0"
+	  $ObjectID		  16
+	  Version		  "1.12.1"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    1
@@ -636,7 +623,6 @@ Model {
 	  CodeExecutionProfileVariable "executionProfile"
 	  CodeProfilingSaveOptions "SummaryOnly"
 	  CodeProfilingInstrumentation off
-	  SILDebugging		  off
 	  TargetLang		  "C"
 	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
 	  IncludeERTFirstTime	  on
@@ -656,8 +642,8 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      18
-	      Version		      "1.13.0"
+	      $ObjectID		      17
+	      Version		      "1.12.1"
 	      Array {
 		Type			"Cell"
 		Dimension		9
@@ -689,7 +675,7 @@ Model {
 	      IncDataTypeInIds	      off
 	      MangleLength	      1
 	      CustomSymbolStrGlobalVar "$R$N$M"
-	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrType     "$N$R$M"
 	      CustomSymbolStrField    "$N$M"
 	      CustomSymbolStrFcn      "$R$N$M$F"
 	      CustomSymbolStrFcnArg   "rt$I$N$M"
@@ -704,15 +690,15 @@ Model {
 	      SimulinkBlockComments   on
 	      MATLABSourceComments    off
 	      EnableCustomComments    off
-	      InternalIdentifier      "Shortened"
+	      InternalIdentifier      "Classic"
 	      InlinedPrmAccess	      "Literals"
 	      ReqsInCode	      off
 	      UseSimReservedNames     off
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      19
-	      Version		      "1.13.0"
+	      $ObjectID		      18
+	      Version		      "1.12.1"
 	      Array {
 		Type			"Cell"
 		Dimension		11
@@ -721,12 +707,12 @@ Model {
 		Cell			"SuppressErrorStatus"
 		Cell			"ERTCustomFileBanners"
 		Cell			"GenerateSampleERTMain"
-		Cell			"SupportContinuousTime"
+		Cell			"MultiInstanceERTCode"
 		Cell			"PurelyIntegerCode"
 		Cell			"SupportNonInlinedSFcns"
 		Cell			"SupportComplex"
 		Cell			"SupportAbsoluteTime"
-		Cell			"GenerateAllocFcn"
+		Cell			"SupportContinuousTime"
 		PropName		"DisabledProps"
 	      }
 	      TargetFcnLib	      "ansi_tfl_tmw.mat"
@@ -765,12 +751,10 @@ Model {
 	      SupportVariableSizeSignals off
 	      EnableShiftOperators    on
 	      ParenthesesLevel	      "Nominal"
-	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
 	      ModelStepFunctionPrototypeControlCompliant off
 	      CPPClassGenCompliant    off
 	      AutosarCompliant	      off
 	      GRTInterface	      on
-	      GenerateAllocFcn	      off
 	      UseMalloc		      off
 	      ExtMode		      off
 	      ExtModeStaticAlloc      off
@@ -798,11 +782,11 @@ Model {
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    9
+    $ObjectID		    8
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    20
+    $ObjectID		    19
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -949,9 +933,11 @@ Model {
     }
     Block {
       BlockType		      Goto
-      GotoTag		      "A"
       IconDisplay	      "Tag"
       TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Ground
     }
     Block {
       BlockType		      Inport
@@ -1136,7 +1122,6 @@ Model {
       SystemSampleTime	      "-1"
       RTWFcnNameOpts	      "Auto"
       RTWFileNameOpts	      "Auto"
-      FunctionInterfaceSpec   "void_void"
       RTWMemSecFuncInitTerm   "Inherit from model"
       RTWMemSecFuncExecute    "Inherit from model"
       RTWMemSecDataConstants  "Inherit from model"
@@ -1191,7 +1176,7 @@ Model {
   }
   System {
     Name		    "car"
-    Location		    [0, 25, 964, 1025]
+    Location		    [0, 0, 960, 1156]
     Open		    on
     ModelBrowserVisibility  on
     ModelBrowserWidth	    200
@@ -1400,97 +1385,97 @@ Model {
 	      MaskHideContents	      off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		21
+		$ObjectID		20
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  13
 		  Object {
-		    $ObjectID		    22
+		    $ObjectID		    21
 		    Type		    "edit"
 		    Name		    "g"
 		    Prompt		    "gravity constant [m/s^2]"
 		    Value		    "g"
 		  }
 		  Object {
-		    $ObjectID		    23
+		    $ObjectID		    22
 		    Type		    "edit"
 		    Name		    "mass"
 		    Prompt		    "vehicle mass [kg]"
 		    Value		    "mass"
 		  }
 		  Object {
-		    $ObjectID		    24
+		    $ObjectID		    23
 		    Type		    "edit"
 		    Name		    "J_w"
 		    Prompt		    "wheel inertia [kg m^2]"
 		    Value		    "J_w"
 		  }
 		  Object {
-		    $ObjectID		    25
+		    $ObjectID		    24
 		    Type		    "edit"
 		    Name		    "r_w"
 		    Prompt		    "wheel radius [m]"
 		    Value		    "r_w"
 		  }
 		  Object {
-		    $ObjectID		    26
+		    $ObjectID		    25
 		    Type		    "edit"
 		    Name		    "init_d"
 		    Prompt		    "initial drive shaft speed [rad/s]"
 		    Value		    "init_d"
 		  }
 		  Object {
-		    $ObjectID		    27
+		    $ObjectID		    26
 		    Type		    "edit"
 		    Name		    "c_w"
 		    Prompt		    "air drag coefficient [-]"
 		    Value		    "c_w"
 		  }
 		  Object {
-		    $ObjectID		    28
+		    $ObjectID		    27
 		    Type		    "edit"
 		    Name		    "A_a"
 		    Prompt		    "max. vehicle cross section area [m^2]"
 		    Value		    "A_a"
 		  }
 		  Object {
-		    $ObjectID		    29
+		    $ObjectID		    28
 		    Type		    "edit"
 		    Name		    "Rho_a"
 		    Prompt		    "Air density [kg/m^3]"
 		    Value		    "Rho_a"
 		  }
 		  Object {
-		    $ObjectID		    30
+		    $ObjectID		    29
 		    Type		    "edit"
 		    Name		    "c_r"
 		    Prompt		    "rolling resistance coefficient [-]"
 		    Value		    "c_r"
 		  }
 		  Object {
-		    $ObjectID		    31
+		    $ObjectID		    30
 		    Type		    "edit"
 		    Name		    "Bx"
 		    Prompt		    "Magic Bx"
 		    Value		    "Bx"
 		  }
 		  Object {
-		    $ObjectID		    32
+		    $ObjectID		    31
 		    Type		    "edit"
 		    Name		    "Cx"
 		    Prompt		    "Magic Cx"
 		    Value		    "Cx"
 		  }
 		  Object {
-		    $ObjectID		    33
+		    $ObjectID		    32
 		    Type		    "edit"
 		    Name		    "Dx"
 		    Prompt		    "Magic Dx"
 		    Value		    "Dx"
 		  }
 		  Object {
-		    $ObjectID		    34
+		    $ObjectID		    33
 		    Type		    "edit"
 		    Name		    "Ex"
 		    Prompt		    "Magic Ex"
@@ -1942,7 +1927,6 @@ Model {
 		    SID			    "10:32"
 		    Name		    "Note: The SAE definition of the slip ratio kappa is used."
 		    Position		    [187, 140]
-		    ZOrder		    -1
 		    }
 		  }
 		}
@@ -2365,13 +2349,11 @@ Model {
 		  SID			  "10:44"
 		  Name			  "\"feedback\" from\nthe drive shafts"
 		  Position		  [57, 386]
-		  ZOrder		  -1
 		}
 		Annotation {
 		  SID			  "10:45"
 		  Name			  "\"feedback\" to\nthe final drive"
 		  Position		  [816, 404]
-		  ZOrder		  -2
 		}
 	      }
 	    }
@@ -2391,11 +2373,11 @@ Model {
 	      MaskHideContents	      off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		35
+		$ObjectID		34
 		$ClassName		"Simulink.Mask"
 		Object {
 		  $PropName		  "Parameters"
-		  $ObjectID		  36
+		  $ObjectID		  35
 		  $ClassName		  "Simulink.MaskParameter"
 		  Type			  "edit"
 		  Name			  "brake_gain"
@@ -2624,7 +2606,7 @@ Model {
 	  MaskHideContents	  off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    37
+	    $ObjectID		    36
 	    $ClassName		    "Simulink.Mask"
 	    Description		    "Inertia"
 	    SelfModifiable	    "on"
@@ -2634,28 +2616,28 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		38
+		$ObjectID		37
 		Type			"edit"
 		Name			"mass"
 		Prompt			"Component mass [kg]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		39
+		$ObjectID		38
 		Type			"edit"
 		Name			"inertia"
 		Prompt			"Inertia [kg*m2]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		40
+		$ObjectID		39
 		Type			"edit"
 		Name			"k_c"
 		Prompt			"stiffness [Nm/rad]"
 		Value			"k_c"
 	      }
 	      Object {
-		$ObjectID		41
+		$ObjectID		40
 		Type			"edit"
 		Name			"c_c"
 		Prompt			"damping [Nms/rad]"
@@ -3065,13 +3047,11 @@ Model {
 	      SID		      "11:19"
 	      Name		      "\"feedback\" from\nthe gearbox"
 	      Position		      [56, 319]
-	      ZOrder		      -1
 	    }
 	    Annotation {
 	      SID		      "11:20"
 	      Name		      "\"feedback\" to\nthe flywheel"
 	      Position		      [721, 324]
-	      ZOrder		      -2
 	    }
 	  }
 	}
@@ -3094,8 +3074,8 @@ Model {
 	  MaskHideContents	  off
 	  System {
 	    Name		    "controller"
-	    Location		    [0, 25, 1680, 1025]
-	    Open		    on
+	    Location		    [-4, -4, 1924, 1160]
+	    Open		    off
 	    ModelBrowserVisibility  on
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -3107,7 +3087,7 @@ Model {
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
 	    ZoomFactor		    "100"
-	    SIDHighWatermark	    "63"
+	    SIDHighWatermark	    "57"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "driver cmd in"
@@ -3391,7 +3371,7 @@ Model {
 	      MaskHideContents	      off
 	      System {
 		Name			"Reference states"
-		Location		[0, 25, 1680, 1025]
+		Location		[-4, -4, 1924, 1160]
 		Open			off
 		ModelBrowserVisibility	on
 		ModelBrowserWidth	200
@@ -3717,7 +3697,7 @@ Model {
 	      }
 	      System {
 		Name			"controller"
-		Location		[0, 25, 1680, 1025]
+		Location		[0, 0, 960, 1156]
 		Open			on
 		ModelBrowserVisibility	on
 		ModelBrowserWidth	200
@@ -3757,41 +3737,18 @@ Model {
 		  IconDisplay		  "Port number"
 		}
 		Block {
-		  BlockType		  Constant
-		  Name			  "Constant"
-		  SID			  "12:59"
-		  Position		  [70, 315, 100, 345]
-		  ZOrder		  8
-		  ShowName		  off
-		  Value			  "l"
-		}
-		Block {
-		  BlockType		  Constant
-		  Name			  "Constant1"
-		  SID			  "12:63"
-		  Position		  [415, 170, 445, 200]
-		  ZOrder		  12
-		  Value			  "K_c"
+		  BlockType		  Ground
+		  Name			  "Ground"
+		  SID			  "12:42"
+		  Position		  [695, 175, 715, 195]
+		  ZOrder		  -4
 		}
 		Block {
 		  BlockType		  ManualSwitch
 		  Name			  "Manual Switch"
 		  SID			  "12:44"
-		  Position		  [790, 147, 820, 183]
+		  Position		  [790, 157, 820, 193]
 		  ZOrder		  -6
-		}
-		Block {
-		  BlockType		  Product
-		  Name			  "Matrix Multiply"
-		  SID			  "12:62"
-		  Ports			  [2, 1]
-		  Position		  [475, 154, 530, 196]
-		  ZOrder		  11
-		  Multiplication	  "Matrix(*)"
-		  InputSameDT		  off
-		  OutDataTypeStr	  "Inherit: Inherit via internal rule"
-		  RndMeth		  "Floor"
-		  SaturateOnIntegerOverflow off
 		}
 		Block {
 		  BlockType		  Mux
@@ -3804,21 +3761,10 @@ Model {
 		  DisplayOption		  "bar"
 		}
 		Block {
-		  BlockType		  Mux
-		  Name			  "Mux1"
-		  SID			  "12:58"
-		  Ports			  [3, 1]
-		  Position		  [160, 248, 165, 302]
-		  ZOrder		  7
-		  ShowName		  off
-		  Inputs		  "3"
-		  DisplayOption		  "bar"
-		}
-		Block {
 		  BlockType		  StateSpace
 		  Name			  "Observer"
 		  SID			  "12:57"
-		  Position		  [200, 240, 270, 310]
+		  Position		  [280, 240, 350, 310]
 		  ZOrder		  6
 		  A			  "A_obs"
 		  B			  "B_obs"
@@ -3826,24 +3772,18 @@ Model {
 		  D			  "zeros(size(B_obs))"
 		}
 		Block {
-		  BlockType		  Sum
-		  Name			  "Sum"
-		  SID			  "12:60"
-		  Ports			  [2, 1]
-		  Position		  [370, 155, 390, 175]
-		  ZOrder		  9
+		  BlockType		  Terminator
+		  Name			  "Terminator1"
+		  SID			  "12:46"
+		  Position		  [150, 385, 170, 405]
+		  ZOrder		  -8
 		  ShowName		  off
-		  IconShape		  "round"
-		  Inputs		  "|+-"
-		  InputSameDT		  off
-		  OutDataTypeStr	  "Inherit: Inherit via internal rule"
-		  SaturateOnIntegerOverflow off
 		}
 		Block {
 		  BlockType		  Outport
 		  Name			  "Torque demand from controller"
 		  SID			  "12:48"
-		  Position		  [980, 158, 1010, 172]
+		  Position		  [980, 168, 1010, 182]
 		  ZOrder		  -10
 		  IconDisplay		  "Port number"
 		}
@@ -3857,47 +3797,41 @@ Model {
 		  IconDisplay		  "Port number"
 		}
 		Line {
+		  SrcBlock		  "Torque demand from driver"
+		  SrcPort		  1
+		  Points		  [670, 0]
+		  DstBlock		  "Manual Switch"
+		  DstPort		  1
+		}
+		Line {
 		  SrcBlock		  "Manual Switch"
 		  SrcPort		  1
-		  Points		  [32, 0]
-		  Branch {
-		    Points		    [0, 53; -712, 0]
-		    DstBlock		    "Mux1"
-		    DstPort		    1
-		  }
-		  Branch {
-		    Points		    [108, 0]
-		    DstBlock		    "Torque demand from controller"
-		    DstPort		    1
-		  }
+		  DstBlock		  "Torque demand from controller"
+		  DstPort		  1
 		}
 		Line {
 		  SrcBlock		  "Engine speed sensor"
 		  SrcPort		  1
-		  DstBlock		  "Mux1"
-		  DstPort		  2
+		  DstBlock		  "Observer"
+		  DstPort		  1
 		}
 		Line {
 		  SrcBlock		  "x_ref"
 		  SrcPort		  1
-		  Points		  [245, 0; 0, -230]
-		  DstBlock		  "Sum"
+		  DstBlock		  "Terminator1"
 		  DstPort		  1
 		}
 		Line {
-		  SrcBlock		  "Matrix Multiply"
+		  SrcBlock		  "Ground"
 		  SrcPort		  1
-		  Points		  [240, 0]
 		  DstBlock		  "Manual Switch"
 		  DstPort		  2
 		}
 		Line {
 		  SrcBlock		  "Observer"
 		  SrcPort		  1
-		  Points		  [105, 0]
+		  Points		  [530, 0; 0, 75]
 		  Branch {
-		    Points		    [505, 0; 0, 75]
-		    Branch {
 		    Points		    [0, 15]
 		    Branch {
 		    Points		    [0, 15]
@@ -3915,15 +3849,10 @@ Model {
 		    DstBlock		    "Mux"
 		    DstPort		    2
 		    }
-		    }
-		    Branch {
-		    DstBlock		    "Mux"
-		    DstPort		    1
-		    }
 		  }
 		  Branch {
-		    DstBlock		    "Sum"
-		    DstPort		    2
+		    DstBlock		    "Mux"
+		    DstPort		    1
 		  }
 		}
 		Line {
@@ -3932,44 +3861,11 @@ Model {
 		  DstBlock		  "Observed states"
 		  DstPort		  1
 		}
-		Line {
-		  SrcBlock		  "Mux1"
-		  SrcPort		  1
-		  DstBlock		  "Observer"
-		  DstPort		  1
-		}
-		Line {
-		  SrcBlock		  "Constant"
-		  SrcPort		  1
-		  Points		  [40, 0]
-		  DstBlock		  "Mux1"
-		  DstPort		  3
-		}
-		Line {
-		  SrcBlock		  "Sum"
-		  SrcPort		  1
-		  DstBlock		  "Matrix Multiply"
-		  DstPort		  1
-		}
-		Line {
-		  SrcBlock		  "Torque demand from driver"
-		  SrcPort		  1
-		  Points		  [535, 0; 0, 20]
-		  DstBlock		  "Manual Switch"
-		  DstPort		  1
-		}
-		Line {
-		  SrcBlock		  "Constant1"
-		  SrcPort		  1
-		  DstBlock		  "Matrix Multiply"
-		  DstPort		  2
-		}
 		Annotation {
 		  SID			  "12:50"
 		  Name			  "Construct an observer for the vehicle using the engine speed sensor. \nThen use the given reference stat"
 		  "es (x_ref) and design a state feedback controller to damp the driveline oscillations. "
 		  Position		  [543, 44]
-		  ZOrder		  -1
 		  FontName		  "Arial"
 		  FontSize		  20
 		}
@@ -3977,7 +3873,6 @@ Model {
 		  SID			  "12:51"
 		  Name			  "Connect your observed states \nhear to plot them in Figure 3 "
 		  Position		  [893, 449]
-		  ZOrder		  -2
 		  FontName		  "Arial"
 		  FontSize		  20
 		}
@@ -4260,7 +4155,7 @@ Model {
 	  MaskHideContents	  off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    42
+	    $ObjectID		    41
 	    $ClassName		    "Simulink.Mask"
 	    Description		    "Inertia"
 	    SelfModifiable	    "on"
@@ -4270,28 +4165,28 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		43
+		$ObjectID		42
 		Type			"edit"
 		Name			"mass"
 		Prompt			"Component mass [kg]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		44
+		$ObjectID		43
 		Type			"edit"
 		Name			"inertia"
 		Prompt			"Inertia [kg*m2]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		45
+		$ObjectID		44
 		Type			"edit"
 		Name			"k_d"
 		Prompt			"stiffness [Nm/rad]"
 		Value			"k_d"
 	      }
 	      Object {
-		$ObjectID		46
+		$ObjectID		45
 		Type			"edit"
 		Name			"c_d"
 		Prompt			"damping [Nms/rad]"
@@ -4701,13 +4596,11 @@ Model {
 	      SID		      "13:19"
 	      Name		      "\"feedback\" from\nthe gearbox"
 	      Position		      [56, 319]
-	      ZOrder		      -1
 	    }
 	    Annotation {
 	      SID		      "13:20"
 	      Name		      "\"feedback\" to\nthe flywheel"
 	      Position		      [721, 324]
-	      ZOrder		      -2
 	    }
 	  }
 	}
@@ -4777,34 +4670,34 @@ Model {
 	      MaskHideContents	      off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		47
+		$ObjectID		46
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  4
 		  Object {
-		    $ObjectID		    48
+		    $ObjectID		    47
 		    Type		    "edit"
 		    Name		    "mass"
 		    Prompt		    "mass [kg]"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    49
+		    $ObjectID		    48
 		    Type		    "edit"
 		    Name		    "inertia"
 		    Prompt		    "inertia [kg m^2]"
 		    Value		    "J_f"
 		  }
 		  Object {
-		    $ObjectID		    50
+		    $ObjectID		    49
 		    Type		    "edit"
 		    Name		    "b_f"
 		    Prompt		    "Damping [Nm s/rad]"
 		    Value		    "b_f"
 		  }
 		  Object {
-		    $ObjectID		    51
+		    $ObjectID		    50
 		    Type		    "edit"
 		    Name		    "i_f"
 		    Prompt		    "Ratio [-]"
@@ -5269,13 +5162,11 @@ Model {
 		  SID			  "14:23"
 		  Name			  "\"feedback\" to\nthe propeller shaft"
 		  Position		  [681, 259]
-		  ZOrder		  -1
 		}
 		Annotation {
 		  SID			  "14:24"
 		  Name			  "\"feedback\" from\nthe drive shafts"
 		  Position		  [62, 261]
-		  ZOrder		  -2
 		}
 	      }
 	    }
@@ -5342,7 +5233,7 @@ Model {
 	  MaskHideContents	  off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    52
+	    $ObjectID		    51
 	    $ClassName		    "Simulink.Mask"
 	    Description		    "Inertia"
 	    SelfModifiable	    "on"
@@ -5355,28 +5246,28 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		53
+		$ObjectID		52
 		Type			"edit"
 		Name			"mass"
 		Prompt			"Component mass [kg]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		54
+		$ObjectID		53
 		Type			"edit"
 		Name			"inertia"
 		Prompt			"Inertia [kg*m2]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		55
+		$ObjectID		54
 		Type			"edit"
 		Name			"speedinit"
 		Prompt			"Initial speed [rad/s]"
 		Value			"init_f"
 	      }
 	      Object {
-		$ObjectID		56
+		$ObjectID		55
 		Type			"edit"
 		Name			"angleinit"
 		Prompt			"Initial angle [rad]"
@@ -5815,13 +5706,11 @@ Model {
 	      SID		      "15:20"
 	      Name		      "\"feedback\" to\nthe final drive"
 	      Position		      [711, 334]
-	      ZOrder		      -1
 	    }
 	    Annotation {
 	      SID		      "15:21"
 	      Name		      "\"feedback\" from\nthe drive shafts"
 	      Position		      [56, 324]
-	      ZOrder		      -2
 	    }
 	  }
 	}
@@ -5844,7 +5733,7 @@ Model {
 	  MaskHideContents	  off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    57
+	    $ObjectID		    56
 	    $ClassName		    "Simulink.Mask"
 	    Description		    "Inertia"
 	    SelfModifiable	    "on"
@@ -5857,28 +5746,28 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		58
+		$ObjectID		57
 		Type			"edit"
 		Name			"mass"
 		Prompt			"Component mass [kg]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		59
+		$ObjectID		58
 		Type			"edit"
 		Name			"inertia"
 		Prompt			"Inertia [kg*m2]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		60
+		$ObjectID		59
 		Type			"edit"
 		Name			"speedinit"
 		Prompt			"Initial speed [rad/s]"
 		Value			"init_e"
 	      }
 	      Object {
-		$ObjectID		61
+		$ObjectID		60
 		Type			"edit"
 		Name			"angleinit"
 		Prompt			"Initial angle [rad]"
@@ -6319,13 +6208,11 @@ Model {
 	      SID		      "16:20"
 	      Name		      "\"feedback\" to\nthe engine"
 	      Position		      [716, 324]
-	      ZOrder		      -1
 	    }
 	    Annotation {
 	      SID		      "16:21"
 	      Name		      "\"feedback\" from\nthe clutch"
 	      Position		      [51, 324]
-	      ZOrder		      -2
 	    }
 	  }
 	}
@@ -6348,7 +6235,7 @@ Model {
 	  MaskHideContents	  off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    62
+	    $ObjectID		    61
 	    $ClassName		    "Simulink.Mask"
 	    Description		    "Inertia"
 	    SelfModifiable	    "on"
@@ -6361,28 +6248,28 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		63
+		$ObjectID		62
 		Type			"edit"
 		Name			"mass"
 		Prompt			"Component mass [kg]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		64
+		$ObjectID		63
 		Type			"edit"
 		Name			"inertia"
 		Prompt			"Inertia [kg*m2]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		65
+		$ObjectID		64
 		Type			"edit"
 		Name			"speedinit"
 		Prompt			"Initial speed [rad/s]"
 		Value			"init_t"
 	      }
 	      Object {
-		$ObjectID		66
+		$ObjectID		65
 		Type			"edit"
 		Name			"angleinit"
 		Prompt			"Initial angle [rad]"
@@ -6821,13 +6708,11 @@ Model {
 	      SID		      "17:20"
 	      Name		      "\"feedback\" from\nthe propeller shaft"
 	      Position		      [56, 324]
-	      ZOrder		      -1
 	    }
 	    Annotation {
 	      SID		      "17:21"
 	      Name		      "\"feedback\" to\nthe gearbox"
 	      Position		      [711, 334]
-	      ZOrder		      -2
 	    }
 	  }
 	}
@@ -6913,27 +6798,27 @@ Model {
 	      MaskHideContents	      off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		67
+		$ObjectID		66
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  3
 		  Object {
-		    $ObjectID		    68
+		    $ObjectID		    67
 		    Type		    "edit"
 		    Name		    "mass"
 		    Prompt		    "mass [kg]"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    69
+		    $ObjectID		    68
 		    Type		    "edit"
 		    Name		    "inertia"
 		    Prompt		    "inertia [kg m^2]"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    70
+		    $ObjectID		    69
 		    Type		    "edit"
 		    Name		    "b_t"
 		    Prompt		    "Damping [Nm s/rad]"
@@ -7427,13 +7312,11 @@ Model {
 		  SID			  "18:25"
 		  Name			  "\"feedback\" from\nthe propeller shaft"
 		  Position		  [62, 351]
-		  ZOrder		  -1
 		}
 		Annotation {
 		  SID			  "18:26"
 		  Name			  "\"feedback\" to\nthe clutch"
 		  Position		  [681, 349]
-		  ZOrder		  -2
 		}
 	      }
 	    }
@@ -7453,27 +7336,27 @@ Model {
 	      MaskHideContents	      off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		71
+		$ObjectID		70
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  3
 		  Object {
-		    $ObjectID		    72
+		    $ObjectID		    71
 		    Type		    "edit"
 		    Name		    "gearNumber"
 		    Prompt		    "gear number vector"
 		    Value		    "gearNumber"
 		  }
 		  Object {
-		    $ObjectID		    73
+		    $ObjectID		    72
 		    Type		    "edit"
 		    Name		    "gearRatio"
 		    Prompt		    "gear ratio vector"
 		    Value		    "gearRatio"
 		  }
 		  Object {
-		    $ObjectID		    74
+		    $ObjectID		    73
 		    Type		    "edit"
 		    Name		    "gearInertia"
 		    Prompt		    "gear inertia vector"
@@ -7791,41 +7674,41 @@ Model {
 	      MaskHideContents	      off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		75
+		$ObjectID		74
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  5
 		  Object {
-		    $ObjectID		    76
+		    $ObjectID		    75
 		    Type		    "edit"
 		    Name		    "mass"
 		    Prompt		    "mass [kg]"
 		    Value		    "0"
 		  }
 		  Object {
-		    $ObjectID		    77
+		    $ObjectID		    76
 		    Type		    "edit"
 		    Name		    "inertia"
 		    Prompt		    "inertia [kg m^2]"
 		    Value		    "J_e"
 		  }
 		  Object {
-		    $ObjectID		    78
+		    $ObjectID		    77
 		    Type		    "edit"
 		    Name		    "tau_d"
 		    Prompt		    "time delay [s]"
 		    Value		    "tau_d"
 		  }
 		  Object {
-		    $ObjectID		    79
+		    $ObjectID		    78
 		    Type		    "edit"
 		    Name		    "tau_e"
 		    Prompt		    "time constant [s]"
 		    Value		    "tau_e"
 		  }
 		  Object {
-		    $ObjectID		    80
+		    $ObjectID		    79
 		    Type		    "edit"
 		    Name		    "init_T"
 		    Prompt		    "initial torque [Nm]"
@@ -8209,7 +8092,6 @@ Model {
 		  SID			  "42"
 		  Name			  "\"feedback\" from\nthe gearbox"
 		  Position		  [49, 210]
-		  ZOrder		  -1
 		}
 	      }
 	    }
@@ -8229,41 +8111,41 @@ Model {
 	      MaskHideContents	      off
 	      Object {
 		$PropName		"MaskObject"
-		$ObjectID		81
+		$ObjectID		80
 		$ClassName		"Simulink.Mask"
 		Array {
 		  Type			  "Simulink.MaskParameter"
 		  Dimension		  5
 		  Object {
-		    $ObjectID		    82
+		    $ObjectID		    81
 		    Type		    "edit"
 		    Name		    "T_max"
 		    Prompt		    "maximum torque [Nm]"
 		    Value		    "T_max"
 		  }
 		  Object {
-		    $ObjectID		    83
+		    $ObjectID		    82
 		    Type		    "edit"
 		    Name		    "N_max"
 		    Prompt		    "maximum speed [rad/s]"
 		    Value		    "N_max"
 		  }
 		  Object {
-		    $ObjectID		    84
+		    $ObjectID		    83
 		    Type		    "edit"
 		    Name		    "N_idle"
 		    Prompt		    "Idle controller reference value [rad/s]"
 		    Value		    "N_idle"
 		  }
 		  Object {
-		    $ObjectID		    85
+		    $ObjectID		    84
 		    Type		    "edit"
 		    Name		    "P"
 		    Prompt		    "Idle controller proportional gain"
 		    Value		    "IdleControllerP"
 		  }
 		  Object {
-		    $ObjectID		    86
+		    $ObjectID		    85
 		    Type		    "edit"
 		    Name		    "I"
 		    Prompt		    "Idle controller integral gain"
@@ -8355,7 +8237,7 @@ Model {
 		  Position		  [310, 204, 395, 226]
 		  ZOrder		  -6
 		  ShowName		  off
-		  LibraryVersion	  "1.274"
+		  LibraryVersion	  "1.281"
 		  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
 		  SourceType		  "Compare To Constant"
 		  relop			  ">="
@@ -8371,7 +8253,7 @@ Model {
 		  Position		  [310, 322, 395, 348]
 		  ZOrder		  -7
 		  ShowName		  off
-		  LibraryVersion	  "1.274"
+		  LibraryVersion	  "1.281"
 		  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
 		  SourceType		  "Compare To Constant"
 		  relop			  "<="
@@ -8954,7 +8836,7 @@ Model {
 	  MaskHideContents	  off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    87
+	    $ObjectID		    86
 	    $ClassName		    "Simulink.Mask"
 	    Description		    "Inertia"
 	    SelfModifiable	    "on"
@@ -8964,28 +8846,28 @@ Model {
 	      Type		      "Simulink.MaskParameter"
 	      Dimension		      4
 	      Object {
-		$ObjectID		88
+		$ObjectID		87
 		Type			"edit"
 		Name			"mass"
 		Prompt			"Component mass [kg]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		89
+		$ObjectID		88
 		Type			"edit"
 		Name			"inertia"
 		Prompt			"Inertia [kg*m2]"
 		Value			"0"
 	      }
 	      Object {
-		$ObjectID		90
+		$ObjectID		89
 		Type			"edit"
 		Name			"k_p"
 		Prompt			"stiffness [Nm/rad]"
 		Value			"k_p"
 	      }
 	      Object {
-		$ObjectID		91
+		$ObjectID		90
 		Type			"edit"
 		Name			"c_p"
 		Prompt			"damping [Nms/rad]"
@@ -9395,13 +9277,11 @@ Model {
 	      SID		      "77:19"
 	      Name		      "\"feedback\" to\nthe flywheel"
 	      Position		      [721, 324]
-	      ZOrder		      -1
 	    }
 	    Annotation {
 	      SID		      "77:20"
 	      Name		      "\"feedback\" from\nthe gearbox"
 	      Position		      [56, 319]
-	      ZOrder		      -2
 	    }
 	  }
 	}
@@ -9634,7 +9514,6 @@ Model {
 	Annotation {
 	  SID			  "79"
 	  Position		  [141, 176]
-	  ZOrder		  -1
 	}
       }
     }
@@ -9657,7 +9536,7 @@ Model {
       MaskHideContents	      off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		92
+	$ObjectID		91
 	$ClassName		"Simulink.Mask"
 	Description		"Environment settings"
 	IconOpaque		"off"
@@ -9665,28 +9544,28 @@ Model {
 	  Type			  "Simulink.MaskParameter"
 	  Dimension		  4
 	  Object {
-	    $ObjectID		    93
+	    $ObjectID		    92
 	    Type		    "edit"
 	    Name		    "Tamb"
 	    Prompt		    "Ambient Temperature [K]"
 	    Value		    "0"
 	  }
 	  Object {
-	    $ObjectID		    94
+	    $ObjectID		    93
 	    Type		    "edit"
 	    Name		    "Pamb"
 	    Prompt		    "Ambient Pressure [Pa]"
 	    Value		    "0"
 	  }
 	  Object {
-	    $ObjectID		    95
+	    $ObjectID		    94
 	    Type		    "edit"
 	    Name		    "pos"
 	    Prompt		    "positionvector in slope map [m]"
 	    Value		    "position"
 	  }
 	  Object {
-	    $ObjectID		    96
+	    $ObjectID		    95
 	    Type		    "edit"
 	    Name		    "slope"
 	    Prompt		    "slopevector in slope map [rad]"
@@ -9719,7 +9598,7 @@ Model {
 	  Position		  [335, 295, 365, 325]
 	  ZOrder		  -1
 	  ShowName		  off
-	  LibraryVersion	  "1.274"
+	  LibraryVersion	  "1.281"
 	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
 	  SourceType		  "Compare To Constant"
 	  relop			  "<"
@@ -9735,7 +9614,7 @@ Model {
 	  Position		  [335, 345, 365, 375]
 	  ZOrder		  -2
 	  ShowName		  off
-	  LibraryVersion	  "1.274"
+	  LibraryVersion	  "1.281"
 	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
 	  SourceType		  "Compare To Constant"
 	  relop			  "<"
@@ -9955,7 +9834,7 @@ Model {
       MaskHideContents	      off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		97
+	$ObjectID		96
 	$ClassName		"Simulink.Mask"
 	Description		"Driver model"
       }

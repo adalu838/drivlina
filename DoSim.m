@@ -1,9 +1,10 @@
 % DoSim.m
-
+%clear all;
+%close all;
+clc;
 
 
 % simulate the reference model
-
 
 
 %
@@ -125,7 +126,8 @@ thDiff_d = driveshaftsout(:,2);
 
 % ----
 
-DoPlot;
+%DoPlot;
+DoRedPlot;
 
 % ----
 
